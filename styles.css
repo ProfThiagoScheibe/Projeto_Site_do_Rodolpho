@@ -1,0 +1,222 @@
+body
+{
+    font-family: 'Oswald', sans-serif;
+}
+header, #solotext, #contact
+{
+    background-image: url("misc/grille.png");
+    padding: 20px;
+}
+h1
+{
+    color: #E15200;
+    font-size: 1.5em;
+}
+h2
+{
+    color: grey;
+}
+p
+{
+    color: grey;
+}
+.lightgrey
+{
+    color: lightgrey;
+}
+.underline
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.underlinehover:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#navbar
+{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#navbar ul
+{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+#navbar a
+{
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+#colegios
+{
+    border-bottom: 5px solid red;
+}
+#podcasts
+{
+    border-bottom: 5px solid yellow;
+}
+#videos
+{
+    border-bottom: 5px solid green;
+}
+#acoes
+{
+    border-bottom: 5px solid blue;
+}
+#plus
+{
+    border-bottom: 5px solid purple;
+}
+#logo
+{
+    border-bottom: none;
+}
+#navbar li:first-child
+{
+    margin-right: auto;
+    border-bottom: none;
+}
+#navbar li
+{
+    list-style-type: none;
+    width: 150px;
+}
+li a
+{
+    font-size: 1em;
+}
+ul li
+{
+    margin-bottom: 2px;
+}
+#video
+{
+    padding-top: 20px;
+    text-align: center;
+}
+#solotext
+{
+    font-family: Droid Serif;
+}
+#pagecore
+{
+    font-family: Droid Sans;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#fun
+{
+    display: flex;
+    width: 50%;
+}
+.icone_de_app
+{
+    width: 4.375%;
+    height: auto;
+}
+#Os_Professores
+{
+    border: 2px solid lightgrey;
+    padding: 8px;
+    margin-right: 20px;
+}
+#comm
+{
+    width: 35%;
+}
+#comm-images
+{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 5vw);
+    grid-gap: 30px;
+}
+#contact
+{
+    display: flex;
+    
+}
+#contact div
+{
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#contact div:first-child
+{
+    margin-left: 15%;
+}
+#contact div:last-child
+{
+    margin-right: 15%;
+}
+.fas
+{
+    color: black;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 1700px)
+{
+    #navbar
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #video iframe
+    {
+        display: none;
+    }
+    #pagecore
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #fun
+    {
+        flex-direction: column;
+    }
+    #fun img
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    #navbar
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #video iframe
+    {
+        display: none;
+    }
+    #pagecore, #contact, footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
