@@ -34,6 +34,13 @@ p
     text-decoration: underline;
     cursor: pointer;
 }
+.banner{
+    width: screen;
+    height: auto;
+
+}
+
+
 #navbar
 {
     display: flex;
