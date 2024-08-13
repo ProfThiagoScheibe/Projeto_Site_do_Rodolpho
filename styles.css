@@ -124,11 +124,15 @@ ul li
     display: flex;
     width: 50%;
 }
+.texto_de_app
+{
+    display: inline;
+}
 .icone_de_app
 {
     width: 4.375%;
     height: auto;
-    display: grid;
+    display: inline;
 }
 #Os_Professores
 {
